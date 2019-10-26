@@ -1,17 +1,11 @@
 {
-  "name": "bot",
+  "name": "julie",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Aswhay_",
-  "license": "MIT",
-  "dependencies": {
-    "discord.js": "^11.4.2",
-    "express": "^4.16.4",
-    "moment": "^2.24.0"
-  },
-  "devDependencies": {},
-  "description": ""
+  "author": "Kerzo",
+  "license": "ISC"
 }
