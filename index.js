@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const ourg = require('./index.json');
+const token = process.env.token;
 const prefix = ("/");
 
 bot.on('ready', function (){
@@ -30,4 +31,4 @@ bot.on('message', msg => {
 
 });
 
-bot.login(ourg.token);  
+bot.login(token);  
